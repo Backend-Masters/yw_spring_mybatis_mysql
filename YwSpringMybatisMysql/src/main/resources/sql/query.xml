@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--suppress SqlNoDataSourceInspection -->
+<mapper namespace="database">
+    <select id="getStudentByName" resultType="master.backend.YwSpringMybatisMysql.model.Student" parameterType="String">
+        SELECT *
+        FROM STUDENTS
+        WHERE STUDENTS.NAME = #{name}
+        LIMIT 1
+    </select>
+</mapper>
