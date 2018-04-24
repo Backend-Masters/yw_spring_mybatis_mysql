@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab62c8f7-4a55-47d2-b9ea-9f09dd913e91" name="Default" comment="" />
+    <list default="true" id="ab62c8f7-4a55-47d2-b9ea-9f09dd913e91" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/YwSpringMybatisMysql/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -213,9 +215,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="94" />
     <option name="y" value="23" />
-    <option name="width" value="1723" />
+    <option name="width" value="1798" />
     <option name="height" value="834" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -505,16 +506,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524326980588</updated>
-      <workItem from="1524326984132" duration="8765000" />
+      <workItem from="1524326984132" duration="9787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8765000" />
+    <option name="totallyTimeSpent" value="9787000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="834" extended-state="6" />
-    <editor active="true" />
+    <frame x="1" y="23" width="1920" height="834" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="9" sideWeight="0.40664557" side_tool="true" weight="0.1544196" />
       <window_info anchor="right" id="Palette" order="0" />
@@ -536,10 +536,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="4" sideWeight="0.47177848" weight="0.27371866" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" x="1920" y="159" width="1698" height="921" id="Run" order="11" sideWeight="0.49520767" type="WINDOWED" weight="0.44601962" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.48615548" weight="0.3827699" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.48615548" visible="true" weight="0.3826323" />
       <window_info anchor="bottom" id="Spring" order="5" weight="0.47328246" />
       <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.48722044" weight="0.6608506" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.4754846" visible="true" weight="0.21316166" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.4754846" visible="true" weight="0.15867944" />
       <window_info id="Web" order="5" sideWeight="0.5285054" side_tool="true" weight="0.22630458" />
       <window_info anchor="bottom" id="Find" order="8" sideWeight="0.55058575" weight="0.47437295" />
       <window_info id="Learn" order="6" show_stripe_button="false" weight="0.3295302" />
@@ -748,7 +748,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>YwSpringMybatisMysql:Web exploded</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -761,7 +761,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (YwSpringMybatisMysql)|Web</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -784,7 +784,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Oracle JDK 1.8</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -808,7 +808,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>Oracle JDK 1.8</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -820,7 +820,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: asm:asm:3.3.1</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
