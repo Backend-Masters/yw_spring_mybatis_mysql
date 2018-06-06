@@ -9,4 +9,11 @@
         WHERE STUDENTS.NAME = #{name}
         LIMIT 1
     </select>
+
+    <select id="getStudentById" resultType="master.backend.YwSpringMybatisMysql.model.Student" parameterType="Integer">
+        SELECT ID, NAME, AGE, TEST_COL
+        FROM STUDENTS
+        WHERE STUDENTS.ID = #{id}
+        LIMIT 1
+    </select>
 </mapper>

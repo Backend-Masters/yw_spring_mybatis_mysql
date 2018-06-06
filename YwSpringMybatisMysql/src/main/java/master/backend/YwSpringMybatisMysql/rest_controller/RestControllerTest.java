@@ -18,9 +18,14 @@ public class RestControllerTest {
         this.studentRepository = studentRepository;
     }
 
-    @RequestMapping(value = "/restControllerTest", method = RequestMethod.GET)
+    @RequestMapping(value = "/restControllerTest", method = RequestMethod.POST)
     public Student restAPITest(@RequestParam("name") String name) {
         return studentRepository.findStudentByName(name);
+    }
+
+    @RequestMapping(value = "/students", method = RequestMethod.GET)
+    public Student getStudent(@RequestParam("id") Integer id) {
+        return studentRepository.findStudentById(id);
     }
 
 }

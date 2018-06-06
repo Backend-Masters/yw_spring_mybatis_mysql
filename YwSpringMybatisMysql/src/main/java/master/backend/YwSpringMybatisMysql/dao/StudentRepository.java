@@ -16,7 +16,12 @@ public class StudentRepository {
     }
 
     public Student findStudentByName(String name) {
+        // TODO : 한글 이름 검색이 안된다..
         return sqlSession.selectOne("database.getStudentByName", name);
+    }
+
+    public Student findStudentById(Integer id) {
+        return sqlSession.selectOne("database.getStudentById", id);
     }
 
 }
